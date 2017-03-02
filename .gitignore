@@ -79,3 +79,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+# Debug build info
+Assets/StreamingAssets/build_info.txt*
