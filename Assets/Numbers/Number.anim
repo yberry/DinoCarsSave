@@ -69,15 +69,15 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: {x: 0.052141666, y: 0.05214168, z: 0.031770125}
+        value: {x: 0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       - serializedVersion: 2
         time: 0.16666667
         value: {x: 0.3187725, y: 0.31877246, z: 0.2984009}
-        inSlope: {x: 1.1845565, y: 1.1845561, z: 1.1845561}
-        outSlope: {x: 1.1845565, y: 1.1845561, z: 1.1845561}
+        inSlope: {x: 1.3409815, y: 1.3409812, z: 1.2798666}
+        outSlope: {x: 1.3409815, y: 1.3409812, z: 1.2798666}
         tangentMode: 0
       - serializedVersion: 2
         time: 0.33333334
@@ -149,15 +149,15 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: 0.052141666
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
         time: 0.16666667
         value: 0.3187725
-        inSlope: 1.1845565
-        outSlope: 1.1845565
+        inSlope: 1.3409815
+        outSlope: 1.3409815
         tangentMode: 136
       - serializedVersion: 2
         time: 0.33333334
@@ -189,15 +189,15 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: 0.05214168
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
         time: 0.16666667
         value: 0.31877246
-        inSlope: 1.1845561
-        outSlope: 1.1845561
+        inSlope: 1.3409812
+        outSlope: 1.3409812
         tangentMode: 136
       - serializedVersion: 2
         time: 0.33333334
@@ -229,15 +229,15 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: 0.031770125
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
         time: 0.16666667
         value: 0.2984009
-        inSlope: 1.1845561
-        outSlope: 1.1845561
+        inSlope: 1.2798666
+        outSlope: 1.2798666
         tangentMode: 136
       - serializedVersion: 2
         time: 0.33333334
