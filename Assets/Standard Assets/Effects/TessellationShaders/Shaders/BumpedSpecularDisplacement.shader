@@ -37,11 +37,14 @@ float4 tessEdge (appdata v0, appdata v1, appdata v2)
 
 sampler2D _ParallaxMap;
 
-void disp (inout appdata v)
+float4 _ParallaxMap_ST;
+
+void disp(inout appdata v)
 {
-	float d = tex2Dlod(_ParallaxMap, float4(v.texcoord.xy,0,0)).a * _Parallax;
+	float d = tex2Dlod(_ParallaxMap, float4(v.texcoord.xy * _ParallaxMap_ST, 0, 0)).a * _Parallax;
 	v.vertex.xyz += v.normal * d;
 }
+
 
 sampler2D _MainTex;
 sampler2D _BumpMap;
