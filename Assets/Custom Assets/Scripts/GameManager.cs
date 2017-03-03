@@ -104,14 +104,16 @@ public class GameManager : MonoBehaviour {
         PersistentDataSystem.Instance.SaveData(newGhost);
     }
 
-    public void Restart(CND.Car.CarStateManager car, bool resetTime)
+    public void Restart(bool resetTime)
     {
-        StartCoroutine(ReStart(car, resetTime));
+        StartCoroutine(ReStart(resetTime));
     }
 
-    IEnumerator ReStart(CND.Car.CarStateManager car, bool resetTime)
+    IEnumerator ReStart(bool resetTime)
     {
         ResetVar(resetTime);
+
+        CND.Car.CarStateManager car = MapManager.instance.state;
 
         car.Explode();
 

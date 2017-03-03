@@ -33,6 +33,11 @@ public class Restart : MonoBehaviour {
             return;
         }
 
+        if (pInput.GetButtonDown(Globals.BtnAction4))
+        {
+            RestartCheckPoint();
+        }
+
 		if (Input.GetKeyDown(restartKeycode) || pInput.GetButtonDown(Globals.BtnBack))
         {
             RestartScene();
@@ -44,9 +49,14 @@ public class Restart : MonoBehaviour {
         }
 	}
 
+    void RestartCheckPoint()
+    {
+        GameManager.instance.Restart(false);
+    }
+
     public void RestartScene()
     {
-        GameManager.instance.Restart(FindObjectOfType<CND.Car.CarStateManager>(), true);
+        GameManager.instance.Restart(true);
     }
 
     public void RestartMenu()

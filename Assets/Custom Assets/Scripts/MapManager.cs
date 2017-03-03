@@ -9,6 +9,7 @@ public class MapManager : MonoBehaviour {
     public static MapManager instance { get; private set; }
 
     public CarGhost car;
+    public CND.Car.CarStateManager state;
     public bool practise;
 
     Ghost oldGhost;
@@ -16,6 +17,8 @@ public class MapManager : MonoBehaviour {
 
     const int maxStatesStored = 360000;
     const float snapshotFrequency = 1f / 60f;
+
+    
 
     void Start()
     {
@@ -31,6 +34,7 @@ public class MapManager : MonoBehaviour {
         if (!car)
         {
             car = FindObjectOfType<CND.Car.ArcadeCarController>().GetComponent<CarGhost>();
+            state = car.GetComponent<CND.Car.CarStateManager>();
         }
 
         oldGhost = null;
@@ -105,6 +109,8 @@ public class MapManager : MonoBehaviour {
         newGhost.StopRecording();
         newGhost.totalTime = manager.time;
         manager.newGhost = newGhost;
+
+        state.Kill();
 
         float time = manager.hasGhost ? newGhost.totalTime - oldGhost.totalTime : 0f;
         CarDinoHUD.instance.End(time);

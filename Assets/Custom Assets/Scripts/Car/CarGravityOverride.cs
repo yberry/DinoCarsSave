@@ -43,7 +43,7 @@ public class CarGravityOverride : MonoBehaviour {
 	Vector3 GetNextGravity()
 	{
 		RaycastHit hit;
-		if (Physics.Raycast(car.transform.position+transform.forward, -car.transform.up, out hit, 100f,gravityReference.value))
+		if (Physics.Raycast(car.transform.position+transform.forward, -car.transform.up, out hit, 10f,gravityReference))
 		{
 			return Vector3.Slerp(currentGravity, -car.transform.up * 
 				Mathf.Max(Physics.gravity.magnitude,Physics.gravity.magnitude*0.5f+ hit.distance*0.25f),0.5f);

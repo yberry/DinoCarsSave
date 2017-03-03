@@ -62,8 +62,9 @@ namespace CND.Car
 			car.gameObject.SetActive(false);
 			car.rBody.velocity = Vector3.zero;
 			car.rBody.angularVelocity = Vector3.zero;
-			//LastTimeSpawned = Time.time;
-		}
+            ((ArcadeCarController)car).ActionTimers(0f);
+            //LastTimeSpawned = Time.time;
+        }
 
 		public void Explode()
 		{
@@ -101,8 +102,8 @@ namespace CND.Car
 				float shockForce = (1f -   Mathf.Abs(dotDir)) * col.relativeVelocity.magnitude;
 				bool shouldExplode = shockForce > minExplosionVelocity;
 				Debug.Log("Shock force: "+shockForce+" - Should Explode: "+ shouldExplode);
-				if (shouldExplode)
-					Explode();
+                if (shouldExplode)
+                    GameManager.instance.Restart(false);
 				
 			}
 		}
