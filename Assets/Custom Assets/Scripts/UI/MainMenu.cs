@@ -46,6 +46,8 @@ public class MainMenu : MonoBehaviour {
 
         pInput = Rewired.ReInput.players.GetPlayer(0);
 
+        rendererMovie.gameObject.SetActive(playMovie);
+
         if (playMovie)
         {
             StartCoroutine(PlayMovie());
@@ -60,12 +62,17 @@ public class MainMenu : MonoBehaviour {
     {
         pressStart.gameObject.SetActive(false);
 
-        MovieTexture movie = (MovieTexture)rendererMovie.mainTexture;
+        MovieTexture movie = (MovieTexture)rendererMovie.material.GetTexture("_MainTex");
+        Debug.Log(movie.name);
+        MovieTexture alpha = (MovieTexture)rendererMovie.material.GetTexture("_Mask");
 
         movie.loop = false;
         movie.Play();
 
-        yield return new WaitWhile(() => movie.isPlaying);
+        alpha.loop = false;
+        alpha.Play();
+
+        yield return new WaitForSeconds(5f);
 
         pressStart.gameObject.SetActive(true);
 
