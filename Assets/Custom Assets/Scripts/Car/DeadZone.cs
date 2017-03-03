@@ -9,7 +9,7 @@ public class DeadZone : MonoBehaviour {
     {
         if (col is MeshCollider)
         {
-            GameManager.instance.Restart(col.transform.parent.GetComponent<CND.Car.CarStateManager>(), false);
+            GameManager.instance.Restart(false);
         }
     }
 }

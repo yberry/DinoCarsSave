@@ -81,7 +81,7 @@ public class CarDinoHUD : MonoBehaviour {
     }
 
 #if UNITY_EDITOR
-    void Awake()
+    void Start()
     {
         StartBuild();
     }
