@@ -101,8 +101,8 @@ namespace CND.Car
 				float shockForce = (1f -   Mathf.Abs(dotDir)) * col.relativeVelocity.magnitude;
 				bool shouldExplode = shockForce > minExplosionVelocity;
 				Debug.Log("Shock force: "+shockForce+" - Should Explode: "+ shouldExplode);
-				if (shouldExplode)
-					Explode();
+                if (shouldExplode)
+                    GameManager.instance.Restart(false);
 				
 			}
 		}
