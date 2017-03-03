@@ -6,9 +6,9 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: DINOSAURE_ECAILLE_Model_Low
+  m_Name: Epine_Fleche
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
+  m_ShaderKeywords: _DETAIL_MULX2 _EMISSION _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -18,19 +18,19 @@ Material:
     - first:
         name: _BumpMap
       second:
-        m_Texture: {fileID: 2800000, guid: f28b63e72cbaebb42819c9d3993a2729, type: 3}
+        m_Texture: {fileID: 2800000, guid: d088af80740ed674cbf483ae49292870, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _DetailAlbedoMap
       second:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: d85bec433c83e9242ac45b9c05897026, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _DetailMask
       second:
-        m_Texture: {fileID: 2800000, guid: e29aa022e0ae78e45aeb63d6fd2d43d9, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -42,37 +42,37 @@ Material:
     - first:
         name: _EmissionMap
       second:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 1522c25058cb6dd4a9a6f7259b9f4e87, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: 40a00939d0a054e4898f5267ffdae109, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1a8518617af20b246b12deb5182313bd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _MetallicGlossMap
       second:
-        m_Texture: {fileID: 2800000, guid: 895f0fd7b0b5a0f4a8aa9cd1638919de, type: 3}
+        m_Texture: {fileID: 2800000, guid: 056cea67224422e439c7ce1034376bc4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _OcclusionMap
       second:
-        m_Texture: {fileID: 2800000, guid: 63ed69bcc6103e548b66423646435b87, type: 3}
+        m_Texture: {fileID: 2800000, guid: 390b5a2b098e3554a8854b3edcb355ce, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _ParallaxMap
       second:
-        m_Texture: {fileID: 2800000, guid: 8b1da5b7616563142bfc1588914d4411, type: 3}
+        m_Texture: {fileID: 2800000, guid: 467fbebad165401448b18cef7ff56db5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - first:
         name: _BumpScale
-      second: 1
+      second: 2
     - first:
         name: _Cutoff
       second: 0.5
@@ -84,7 +84,7 @@ Material:
       second: 0
     - first:
         name: _GlossMapScale
-      second: 1
+      second: 0.591
     - first:
         name: _Glossiness
       second: 0.5
@@ -99,10 +99,10 @@ Material:
       second: 0
     - first:
         name: _OcclusionStrength
-      second: 1
+      second: 0.704
     - first:
         name: _Parallax
-      second: 0.02
+      second: 0.005
     - first:
         name: _SmoothnessTextureChannel
       second: 0
@@ -124,4 +124,4 @@ Material:
       second: {r: 1, g: 1, b: 1, a: 1}
     - first:
         name: _EmissionColor
-      second: {r: 0, g: 0, b: 0, a: 1}
+      second: {r: 0, g: 0.9221468, b: 1, a: 1}
