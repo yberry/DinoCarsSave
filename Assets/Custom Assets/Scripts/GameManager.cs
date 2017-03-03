@@ -113,7 +113,7 @@ public class GameManager : MonoBehaviour {
     {
         ResetVar(resetTime);
 
-        CND.Car.CarStateManager car = FindObjectOfType<CND.Car.CarStateManager>();
+        CND.Car.CarStateManager car = MapManager.instance.state;
 
         car.Explode();
 
