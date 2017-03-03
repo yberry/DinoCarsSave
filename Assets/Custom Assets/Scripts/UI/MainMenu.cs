@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
+    [Header("Title Screen")]
+    public MovieTexture movie;
     public Button pressStart;
 
     [Header("Camera effects")]
@@ -30,7 +32,7 @@ public class MainMenu : MonoBehaviour {
     Animator animator;
     float timeColor = 0f;
     AsyncOperation async;
-    bool startPressed;
+    bool startPressed = true;
 
     public Rewired.Player pInput;
 
@@ -42,6 +44,13 @@ public class MainMenu : MonoBehaviour {
         animator = cameraVHS.GetComponent<Animator>();
 
         pInput = Rewired.ReInput.players.GetPlayer(0);
+
+        StartCoroutine(PlayMovie());
+    }
+
+    IEnumerator PlayMovie()
+    {
+
     }
 
     public void ChangeTo(RectTransform newMenu)
