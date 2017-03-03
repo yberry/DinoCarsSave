@@ -157,6 +157,8 @@ public class MainMenu : MonoBehaviour {
         Button[] selectables = currentMenu.GetComponentsInChildren<Button>();
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(selectables[0].gameObject);
+
+        Cursor.visible = true;
     }
 
     void Update()

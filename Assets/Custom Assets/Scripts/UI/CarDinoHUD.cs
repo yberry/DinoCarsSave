@@ -72,6 +72,7 @@ public class CarDinoHUD : MonoBehaviour {
             Time.timeScale = value ? 0f : 1f;
             menuPause.SetActive(value);
             Cursor.visible = value;
+            AkSoundEngine.PostEvent(value ? "Pause" : "Resume", gameObject);
             if (value)
             {
                 EventSystem.current.SetSelectedGameObject(null);
