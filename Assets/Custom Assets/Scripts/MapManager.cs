@@ -133,4 +133,12 @@ public class MapManager : MonoBehaviour {
             newGhost = null;
         }
     }
+
+    void OnDestroy()
+    {
+        if (this == instance)
+        {
+            instance = null;
+        }
+    }
 }

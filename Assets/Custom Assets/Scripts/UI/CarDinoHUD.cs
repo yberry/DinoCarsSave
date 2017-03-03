@@ -321,4 +321,12 @@ public class CarDinoHUD : MonoBehaviour {
         Resume();
         Restart.instance.RestartMenu();
     }
+
+    void OnDestroy()
+    {
+        if (this == instance)
+        {
+            instance = null;
+        }
+    }
 }
