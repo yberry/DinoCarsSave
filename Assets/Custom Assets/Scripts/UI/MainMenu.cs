@@ -8,8 +8,9 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour {
 
     [Header("Title Screen")]
-    public MovieTexture movie;
+    public Image rendererMovie;
     public Button pressStart;
+    public bool playMovie;
 
     [Header("Camera effects")]
     public Texture[] noiseTex;
@@ -40,17 +41,35 @@ public class MainMenu : MonoBehaviour {
     {
         AkSoundEngine.PostEvent("Music_Menu_Play", gameObject);
         currentMenu = titleScreen;
-        SetSelection();
+        
         animator = cameraVHS.GetComponent<Animator>();
 
         pInput = Rewired.ReInput.players.GetPlayer(0);
 
-        StartCoroutine(PlayMovie());
+        if (playMovie)
+        {
+            StartCoroutine(PlayMovie());
+        }
+        else
+        {
+            SetSelection();
+        }
     }
 
     IEnumerator PlayMovie()
     {
+        pressStart.gameObject.SetActive(false);
 
+        MovieTexture movie = (MovieTexture)rendererMovie.mainTexture;
+
+        movie.loop = false;
+        movie.Play();
+
+        yield return new WaitWhile(() => movie.isPlaying);
+
+        pressStart.gameObject.SetActive(true);
+
+        SetSelection();
     }
 
     public void ChangeTo(RectTransform newMenu)
