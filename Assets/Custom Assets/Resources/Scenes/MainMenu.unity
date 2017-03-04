@@ -8751,7 +8751,7 @@ MonoBehaviour:
   bleedOn: 1
   crtMode: 0
   crtLinesMode: 0
-  screenLinesNum: 526
+  screenLinesNum: 0
   bleedAmount: 1
   bleedDebugOn: 0
   bleedCurveY:

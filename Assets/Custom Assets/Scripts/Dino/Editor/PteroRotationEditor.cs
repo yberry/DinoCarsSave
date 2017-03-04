@@ -26,7 +26,7 @@ public class PteroRotationEditor : Editor {
             pteroRotation.Record("Courbe");
             pteroRotation.courbe = courbe;
         }
-        if (courbe != Courbe.Bernouilli)
+        if (courbe != Courbe.Bernouilli && courbe != Courbe.Circle)
         {
             pteroRotation.Update(ref pteroRotation.bigR, "Grand Rayon");
             if (pteroRotation.bigR <= 0f)

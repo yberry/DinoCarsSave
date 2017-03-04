@@ -3,11 +3,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	953277036	Resume			\Default Work Unit\Resume	
 	1230956281	UI_Button_Stop			\Default Work Unit\UI\UI_Button_Stop	
 	1795653221	UI_TV_ChangeChannel_Play			\Default Work Unit\UI\UI_TV_ChangeChannel_Play	
-	2013246097	Music_Menu_Play			\Default Work Unit\Music\Music_Menu_Play	
 	2379069253	UI_Button_PassOver_Play			\Default Work Unit\UI\UI_Button_PassOver_Play	
 	2935474450	UI_Button_Bkwd_Play			\Default Work Unit\UI\UI_Button_Bkwd_Play	
 	3092587493	Pause			\Default Work Unit\Pause	
-	3264661319	Music_Menu_Stop			\Default Work Unit\Music\Music_Menu_Stop	
 	3543023082	UI_Button_Select_Play			\Default Work Unit\UI\UI_Button_Select_Play	
 	3716974573	UI_Button_Fwd_Play			\Default Work Unit\UI\UI_Button_Fwd_Play	
 	3864794543	UI_TV_Glitch_01_Play			\Default Work Unit\UI\UI_TV_Glitch_01_Play	

@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{8F2297CB-3E8A-4D0B-B84F-CF5B73B1BEC4}'
-    m_lastTimePsrt1: -371394956
-    m_lastTimePart2: -1999347105
+    m_lastTimePsrt1: -1167989119
+    m_lastTimePart2: -1999346959
     List:
     - Name: Ambiance_Checkpoint_Play
       Path: Default Work Unit\Ambiance\Ambiance_Checkpoint_Play
@@ -78,6 +78,18 @@ MonoBehaviour:
         ObjectType: 3
       ID: -17781675
       Guid: cb4354e34b48014c8b9e476a35771131
+      maxAttenuation: 0
+    - Name: Ambiance_Stop
+      Path: Default Work Unit\Ambiance\Ambiance_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiance
+        ObjectType: 4
+      - ElementName: Ambiance_Stop
+        ObjectType: 3
+      ID: -1249405832
+      Guid: f0b5a821e801cb4bb527dd394b1c8a7e
       maxAttenuation: 0
     - Name: Ambiance_Wind_Play
       Path: Default Work Unit\Ambiance\Ambiance_Wind_Play
@@ -502,8 +514,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{39C57A1E-4548-40AD-9C4D-823982D1C3AC}'
-    m_lastTimePsrt1: 1412959450
-    m_lastTimePart2: -1999347105
+    m_lastTimePsrt1: -286704442
+    m_lastTimePart2: -1999346961
     List:
     - Name: Ambiance
       Path: Default Work Unit\Ambiance
