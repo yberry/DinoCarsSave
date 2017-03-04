@@ -6753,7 +6753,7 @@ MonoBehaviour:
   telDefault: {fileID: 167}
   telVire: {fileID: 219}
   telStandby: {fileID: 205}
-  spritePractise: {fileID: 0}
+  spritePractise: {fileID: 21300000, guid: 1447389114addc847a03ac6ffe477720, type: 3}
   levelSelection: {fileID: 352}
   ghostSelection: {fileID: 254}
 --- !u!114 &249
@@ -8751,7 +8751,7 @@ MonoBehaviour:
   bleedOn: 1
   crtMode: 0
   crtLinesMode: 0
-  screenLinesNum: 0
+  screenLinesNum: 542
   bleedAmount: 1
   bleedDebugOn: 0
   bleedCurveY:
