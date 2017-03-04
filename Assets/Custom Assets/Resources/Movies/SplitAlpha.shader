@@ -2,40 +2,44 @@
 {
 	Properties
 	{
-		_MainTex("Base (RGB)", 2D) = "white" {}
-		_Mask("Culling Mask", 2D) = "white" {}
-		_Cutoff("Cutoff", Range(0,1)) = .5
+		_MainTex("Color (RGB)", 2D) = "white"
 	}
-
-
+		
 	SubShader
 	{
-		Tags{ "Queue" = "Transparent" }
-		ZWrite Off
-		Blend SrcAlpha OneMinusSrcAlpha
-		Pass
+		Tags{ "Queue" = "Transparent" "RenderType" = "Transparent" }
+
+		CGPROGRAM
+#pragma surface surf NoLighting alpha 
+
+		fixed4 LightingNoLighting(SurfaceOutput s, fixed3 lightDir, fixed atten) 
 		{
-			CGPROGRAM
-#pragma fragment frag 
-#include "UnityCG.cginc"  
-				sampler2D _MainTex;
-				sampler2D _Mask;
-				struct v2f
-				{
-					float4 pos : POSITION;
-					float4 uv : TEXCOORD0;
-				};
-				half4 frag(v2f i) : COLOR
-				{
-					half4 color = tex2D(_MainTex, i.uv.xy);
-					half4 color2 = tex2D(_Mask, i.uv.xy);
-					return half4(color.r, color.g, color.b, color2.r);
-				}
-			ENDCG
+			fixed4 c;
+			c.rgb = s.Albedo;
+			c.a = s.Alpha;
+			return c;
 		}
+		struct Input
+		{
+			float2 uv_MainTex;
+		};
+		sampler2D _MainTex;
+		void surf(Input IN, inout SurfaceOutput o)
+		{
+			o.Emission = tex2D(_MainTex, IN.uv_MainTex).rgb;
+
+			if (IN.uv_MainTex.y <= 0.5)
+			{
+				o.Alpha = 0;
+			}
+			else
+			{
+				o.Alpha = tex2D(_MainTex, float2(IN.uv_MainTex.x, IN.uv_MainTex.y - 0.5)).rgb;
+			}
+
+		}
+		ENDCG
 	}
 	Fallback "Transparent/Diffuse"
-
-
 
 }

@@ -678,7 +678,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &39
 GameObject:
   m_ObjectHideFlags: 0
@@ -6881,7 +6881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rendererMovie: {fileID: 518375030}
   pressStart: {fileID: 263}
-  playMovie: 0
+  playMovie: 1
   noiseTex:
   - {fileID: 2800000, guid: 16ef045b101590349ab3bb081f568864, type: 3}
   - {fileID: 2800000, guid: 808cfab7f3a6e9845bad5a23ce3b214f, type: 3}
@@ -10443,17 +10443,17 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 518375028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -69}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 202}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_SizeDelta: {x: 0, y: 1080}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &518375030
 MonoBehaviour:
   m_ObjectHideFlags: 0

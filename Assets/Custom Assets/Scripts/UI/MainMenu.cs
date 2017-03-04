@@ -63,16 +63,14 @@ public class MainMenu : MonoBehaviour {
         pressStart.gameObject.SetActive(false);
 
         MovieTexture movie = (MovieTexture)rendererMovie.material.GetTexture("_MainTex");
-        Debug.Log(movie.name);
-        MovieTexture alpha = (MovieTexture)rendererMovie.material.GetTexture("_Mask");
 
         movie.loop = false;
         movie.Play();
 
-        alpha.loop = false;
-        alpha.Play();
-
-        yield return new WaitForSeconds(5f);
+        while (movie.isPlaying)
+        {
+            yield return null;
+        }
 
         pressStart.gameObject.SetActive(true);
 
