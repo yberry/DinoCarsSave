@@ -68,15 +68,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4485850164768350}
-  - component: {fileID: 114155485411123586}
   - component: {fileID: 114768282120462418}
-  - component: {fileID: 114158293680711658}
-  - component: {fileID: 114545911091009324}
-  - component: {fileID: 114181201007674478}
-  - component: {fileID: 114700114710785168}
-  - component: {fileID: 114686652665806732}
+  - component: {fileID: 114155485411123586}
   m_Layer: 0
-  m_Name: SoundBanks
+  m_Name: WwiseMotor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -670,7 +665,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1653494722449946}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: -2}
+  m_LocalPosition: {x: 33.5, y: 343.5, z: -2838.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4721116896381180}
@@ -1285,30 +1280,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_positionOffsetData:
     positionOffset: {x: 0, y: 0, z: 0}
-    KeepMe: 1
+    KeepMe: 0
   isEnvironmentAware: 0
   listenerMask: 1
   isStaticObject: 0
   m_posOffsetData: {fileID: 0}
---- !u!114 &114158293680711658
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1164218853259476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f940b6dcb36621642884c79b2e59ba76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  valueGuid: 0ffee3c1d0b6e74fa3b19a665a64f48e
-  bankName: Car_Motor
-  loadAsynchronous: 0
-  decodeBank: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
 --- !u!114 &114181036833823674
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1322,28 +1298,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_WaitTime: 1.5
   m_VelocityThreshold: 1
---- !u!114 &114181201007674478
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1164218853259476}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 591309cdc97c3214ebcc3a50e3e22cc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  valueGuid: 4a208208b49a704ead922074610b7f62
-  eventID: 2086347706
-  soundEmitterObject: {fileID: 0}
-  enableActionOnEvent: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  transitionDuration: 0
-  m_callbackData: {fileID: 0}
-  playingId: 0
 --- !u!114 &114187729547844014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1382,7 +1336,7 @@ MonoBehaviour:
       targetSpeed: 250
       boostRatio: 1.5
       accelCurve: 0.25
-      downForce: 100
+      downForce: 125
       maxTurnAngle: 35
       turnSpeed: 60
       brakeEffectiveness: 0.75
@@ -1400,7 +1354,7 @@ MonoBehaviour:
       targetSpeed: 250
       boostRatio: 1.25
       accelCurve: 0.35
-      downForce: 100
+      downForce: 300
       maxTurnAngle: 42
       turnSpeed: 70
       brakeEffectiveness: 0.5
@@ -1638,7 +1592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   restartKeycode: 8
   menuKeycode: 27
-  bank: {fileID: 114158293680711658}
+  bank: {fileID: 0}
 --- !u!114 &114544022852349678
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1657,28 +1611,6 @@ MonoBehaviour:
   rateOverDistThreshold: 10
   minParticleCount: 1000
   car: {fileID: 114217766517351466}
---- !u!114 &114545911091009324
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1164218853259476}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 591309cdc97c3214ebcc3a50e3e22cc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  valueGuid: ad5e59ea8b295f4facaf669fe73bbf7d
-  eventID: 885871882
-  soundEmitterObject: {fileID: 0}
-  enableActionOnEvent: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  transitionDuration: 0
-  m_callbackData: {fileID: 0}
-  playingId: 0
 --- !u!114 &114549246515893482
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1719,50 +1651,6 @@ MonoBehaviour:
   nbRotationClutch: 3000
   RPM: 0.3345459
   maxValueRotation: 0
---- !u!114 &114686652665806732
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1164218853259476}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 591309cdc97c3214ebcc3a50e3e22cc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  valueGuid: b4d3780b2853a1499816bdb7df95eab8
-  eventID: 1852543838
-  soundEmitterObject: {fileID: 0}
-  enableActionOnEvent: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  transitionDuration: 0
-  m_callbackData: {fileID: 0}
-  playingId: 0
---- !u!114 &114700114710785168
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1164218853259476}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 591309cdc97c3214ebcc3a50e3e22cc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  valueGuid: 21ddcfd93a016d4c85eb0be37920e722
-  eventID: -510743741
-  soundEmitterObject: {fileID: 0}
-  enableActionOnEvent: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  transitionDuration: 0
-  m_callbackData: {fileID: 0}
-  playingId: 0
 --- !u!114 &114730760443928384
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14731,5 +14619,4 @@ ReflectionProbe:
   m_RenderDynamicObjects: 0
   m_UseOcclusionCulling: 1
   m_Importance: 1
-  m_CustomBakedTexture: {fileID: 8900000, guid: fb7bfe95c13760643a6b930c27983305,
-    type: 2}
+  m_CustomBakedTexture: {fileID: 0}
