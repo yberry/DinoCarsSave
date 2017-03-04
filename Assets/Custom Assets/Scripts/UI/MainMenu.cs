@@ -29,6 +29,9 @@ public class MainMenu : MonoBehaviour {
     public LevelSelection levelSelection;
     public GhostSelection ghostSelection;
 
+    Rect titleCam = new Rect(0f, 0f, 1f, 1f);
+    Rect otherCam = new Rect(0f, 0f, 0.74f, 1f);
+
     RectTransform currentMenu;
     Animator animator;
     float timeColor = 0f;
@@ -54,6 +57,7 @@ public class MainMenu : MonoBehaviour {
         }
         else
         {
+            startPressed = false;
             SetSelection();
         }
     }
@@ -74,6 +78,7 @@ public class MainMenu : MonoBehaviour {
 
         pressStart.gameObject.SetActive(true);
 
+        startPressed = false;
         SetSelection();
     }
 
@@ -123,7 +128,7 @@ public class MainMenu : MonoBehaviour {
         }
         else
         {
-            cameraVHS.enabled = newMenu != titleScreen;
+            cameraVHS.GetComponent<Camera>().rect = newMenu == titleScreen ? titleCam : otherCam;
 
             ManageButtons manageNew = newMenu.GetComponent<ManageButtons>();
             if (manageNew != null)
