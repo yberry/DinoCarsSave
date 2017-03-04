@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1296828403	Ambiance_Checkpoint_Play			\Default Work Unit\Ambiance\Ambiance_Checkpoint_Play	
 	2554673542	Ambiance_DS_Main_Play			\Default Work Unit\Ambiance\Ambiance_DS_Main_Play	
 	2959156706	Ambiance_PS_Main_Play			\Default Work Unit\Ambiance\Ambiance_PS_Main_Play	
+	3045561464	Ambiance_Stop			\Default Work Unit\Ambiance\Ambiance_Stop	
 	3368049974	Ambiance_Finish_Play			\Default Work Unit\Ambiance\Ambiance_Finish_Play	
 	3759478915	Ambiance_Wind_Play			\Default Work Unit\Ambiance\Ambiance_Wind_Play	
 	4277185621	Ambiance_Start_CountDown_Play			\Default Work Unit\Ambiance\Ambiance_Start_CountDown_Play	

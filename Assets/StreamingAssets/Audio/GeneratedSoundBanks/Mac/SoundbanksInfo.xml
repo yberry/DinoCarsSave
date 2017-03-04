@@ -278,6 +278,7 @@
 				<Event Id="3368049974" Name="Ambiance_Finish_Play" ObjectPath="\Events\Default Work Unit\Ambiance\Ambiance_Finish_Play"/>
 				<Event Id="2959156706" Name="Ambiance_PS_Main_Play" ObjectPath="\Events\Default Work Unit\Ambiance\Ambiance_PS_Main_Play"/>
 				<Event Id="4277185621" Name="Ambiance_Start_CountDown_Play" ObjectPath="\Events\Default Work Unit\Ambiance\Ambiance_Start_CountDown_Play"/>
+				<Event Id="3045561464" Name="Ambiance_Stop" ObjectPath="\Events\Default Work Unit\Ambiance\Ambiance_Stop"/>
 				<Event Id="3759478915" Name="Ambiance_Wind_Play" ObjectPath="\Events\Default Work Unit\Ambiance\Ambiance_Wind_Play"/>
 				<Event Id="1198733287" Name="Footsteps_Play" ObjectPath="\Events\Default Work Unit\Ambiance\Footsteps_Play"/>
 			</IncludedEvents>
