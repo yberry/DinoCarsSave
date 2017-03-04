@@ -119,9 +119,9 @@ public class MainMenu : MonoBehaviour {
 
         if (newMenu == null)
         {
-            cameraVHS.spriteTex = GameManager.instance.practise ? spritePractise : levelSelection.map.sprite;
-            animator.SetTrigger("Shut");
-            yield return new WaitForSeconds(1f);
+            cameraVHS.spriteTex = spritePractise;
+            //animator.SetTrigger("Shut");
+            yield return new WaitForSeconds(5f);
             AkSoundEngine.PostEvent("Stop_All", gameObject);
             AkSoundEngine.PostEvent("Music_Menu_Stop", gameObject);
             async.allowSceneActivation = true;
