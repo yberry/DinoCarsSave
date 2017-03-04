@@ -60,71 +60,67 @@
 			<IncludedMemoryFiles>
 				<File Id="32068388" Language="SFX">
 					<ShortName>TireSkid_04.wav</ShortName>
-					<Path>SFX\TireSkid_04_3AE5877C.wem</Path>
+					<Path>SFX\TireSkid_04_9E69E797.wem</Path>
 				</File>
 				<File Id="102361454" Language="SFX">
 					<ShortName>Impact_Pneumatic_04.wav</ShortName>
-					<Path>SFX\Impact_Pneumatic_04_3AE5877C.wem</Path>
+					<Path>SFX\Impact_Pneumatic_04_9E69E797.wem</Path>
 				</File>
 				<File Id="146464488" Language="SFX">
 					<ShortName>Impact\Impact_Big_03.wav</ShortName>
-					<Path>SFX\Impact\Impact_Big_03_3AE5877C.wem</Path>
+					<Path>SFX\Impact\Impact_Big_03_9E69E797.wem</Path>
 				</File>
 				<File Id="164804083" Language="SFX">
 					<ShortName>Boost LOOP_ok.wav</ShortName>
-					<Path>SFX\Boost LOOP_ok_3BDAD486.wem</Path>
+					<Path>SFX\Boost LOOP_ok_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="303478541" Language="SFX">
 					<ShortName>TireSkid_05.wav</ShortName>
-					<Path>SFX\TireSkid_05_3AE5877C.wem</Path>
+					<Path>SFX\TireSkid_05_9E69E797.wem</Path>
 				</File>
 				<File Id="333540538" Language="SFX">
 					<ShortName>Impact\Impact_Small_03.wav</ShortName>
-					<Path>SFX\Impact\Impact_Small_03_3AE5877C.wem</Path>
+					<Path>SFX\Impact\Impact_Small_03_9E69E797.wem</Path>
 				</File>
 				<File Id="354615153" Language="SFX">
 					<ShortName>Impact\Impact_Big_02.wav</ShortName>
-					<Path>SFX\Impact\Impact_Big_02_3AE5877C.wem</Path>
+					<Path>SFX\Impact\Impact_Big_02_9E69E797.wem</Path>
 				</File>
 				<File Id="358359546" Language="SFX">
 					<ShortName>SFX_Explosion\Explosion_02.wav</ShortName>
-					<Path>SFX\SFX_Explosion\Explosion_02_3AE5877C.wem</Path>
+					<Path>SFX\SFX_Explosion\Explosion_02_9E69E797.wem</Path>
 				</File>
 				<File Id="475528038" Language="SFX">
 					<ShortName>TireSkid_01.wav</ShortName>
-					<Path>SFX\TireSkid_01_3AE5877C.wem</Path>
+					<Path>SFX\TireSkid_01_9E69E797.wem</Path>
 				</File>
 				<File Id="509314267" Language="SFX">
 					<ShortName>SFX_Explosion\Explosion_04.wav</ShortName>
-					<Path>SFX\SFX_Explosion\Explosion_04_3AE5877C.wem</Path>
+					<Path>SFX\SFX_Explosion\Explosion_04_9E69E797.wem</Path>
 				</File>
 				<File Id="517366726" Language="SFX">
 					<ShortName>Impact_Pneumatic_05.wav</ShortName>
-					<Path>SFX\Impact_Pneumatic_05_3AE5877C.wem</Path>
+					<Path>SFX\Impact_Pneumatic_05_9E69E797.wem</Path>
 				</File>
 				<File Id="524977779" Language="SFX">
 					<ShortName>TireSkid_02.wav</ShortName>
-					<Path>SFX\TireSkid_02_3AE5877C.wem</Path>
+					<Path>SFX\TireSkid_02_9E69E797.wem</Path>
 				</File>
 				<File Id="536937558" Language="SFX">
 					<ShortName>Impact\Impact_Big_01.wav</ShortName>
-					<Path>SFX\Impact\Impact_Big_01_3AE5877C.wem</Path>
+					<Path>SFX\Impact\Impact_Big_01_9E69E797.wem</Path>
 				</File>
 				<File Id="540160979" Language="SFX">
 					<ShortName>Impact_Pneumatic_02.wav</ShortName>
-					<Path>SFX\Impact_Pneumatic_02_3AE5877C.wem</Path>
+					<Path>SFX\Impact_Pneumatic_02_9E69E797.wem</Path>
 				</File>
 				<File Id="555406778" Language="SFX">
 					<ShortName>SFX_Explosion\Explosion_Simple.wav</ShortName>
-					<Path>SFX\SFX_Explosion\Explosion_Simple_3AE5877C.wem</Path>
-				</File>
-				<File Id="646456027" Language="SFX">
-					<ShortName>SFX_Explosion\Explosion_01.wav</ShortName>
-					<Path>SFX\SFX_Explosion\Explosion_01_3AE5877C.wem</Path>
+					<Path>SFX\SFX_Explosion\Explosion_Simple_9E69E797.wem</Path>
 				</File>
 				<File Id="658790606" Language="SFX">
 					<ShortName>SFX_Explosion\Explosion_03.wav</ShortName>
-					<Path>SFX\SFX_Explosion\Explosion_03_3AE5877C.wem</Path>
+					<Path>SFX\SFX_Explosion\Explosion_03_9E69E797.wem</Path>
 				</File>
 				<File Id="673251954" Language="SFX">
 					<ShortName>Ferrari_430.model</ShortName>
@@ -132,31 +128,31 @@
 				</File>
 				<File Id="704711695" Language="SFX">
 					<ShortName>TireSkid_03.wav</ShortName>
-					<Path>SFX\TireSkid_03_3AE5877C.wem</Path>
+					<Path>SFX\TireSkid_03_9E69E797.wem</Path>
 				</File>
 				<File Id="755627189" Language="SFX">
 					<ShortName>Impact\Impact_Small_01.wav</ShortName>
-					<Path>SFX\Impact\Impact_Small_01_3AE5877C.wem</Path>
+					<Path>SFX\Impact\Impact_Small_01_9E69E797.wem</Path>
 				</File>
 				<File Id="793991666" Language="SFX">
 					<ShortName>Impact_Pneumatic_01.wav</ShortName>
-					<Path>SFX\Impact_Pneumatic_01_3AE5877C.wem</Path>
+					<Path>SFX\Impact_Pneumatic_01_9E69E797.wem</Path>
 				</File>
 				<File Id="881912051" Language="SFX">
 					<ShortName>SFX_Explosion\Explosion_05.wav</ShortName>
-					<Path>SFX\SFX_Explosion\Explosion_05_3AE5877C.wem</Path>
+					<Path>SFX\SFX_Explosion\Explosion_05_9E69E797.wem</Path>
 				</File>
 				<File Id="907194361" Language="SFX">
 					<ShortName>Impact_Pneumatic_03.wav</ShortName>
-					<Path>SFX\Impact_Pneumatic_03_3AE5877C.wem</Path>
+					<Path>SFX\Impact_Pneumatic_03_9E69E797.wem</Path>
 				</File>
 				<File Id="943764081" Language="SFX">
 					<ShortName>Boost_Start_02.wav</ShortName>
-					<Path>SFX\Boost_Start_02_59832A9F.wem</Path>
+					<Path>SFX\Boost_Start_02_D38E5F28.wem</Path>
 				</File>
 				<File Id="947323065" Language="SFX">
 					<ShortName>Impact\Impact_Small_02.wav</ShortName>
-					<Path>SFX\Impact\Impact_Small_02_3AE5877C.wem</Path>
+					<Path>SFX\Impact\Impact_Small_02_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -170,8 +166,6 @@
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2013246097" Name="Music_Menu_Play" ObjectPath="\Events\Default Work Unit\Music\Music_Menu_Play"/>
-				<Event Id="3264661319" Name="Music_Menu_Stop" ObjectPath="\Events\Default Work Unit\Music\Music_Menu_Stop"/>
 				<Event Id="3092587493" Name="Pause" ObjectPath="\Events\Default Work Unit\Pause"/>
 				<Event Id="953277036" Name="Resume" ObjectPath="\Events\Default Work Unit\Resume"/>
 				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All"/>
@@ -285,227 +279,227 @@
 			<IncludedMemoryFiles>
 				<File Id="12002936" Language="SFX">
 					<ShortName>CRIS\Cris-15.wav</ShortName>
-					<Path>SFX\CRIS\Cris-15_3ADACB5C.wem</Path>
+					<Path>SFX\CRIS\Cris-15_77F1C6CF.wem</Path>
 				</File>
 				<File Id="13089676" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Divers_08.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Divers_08_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Divers_08_77F1C6CF.wem</Path>
 				</File>
 				<File Id="23577428" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Trucs_04.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Trucs_04_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Trucs_04_77F1C6CF.wem</Path>
 				</File>
 				<File Id="30359174" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Dino_Cris_01.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_01_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_01_77F1C6CF.wem</Path>
 				</File>
 				<File Id="45902559" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Various_01.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Various_01_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Various_01_77F1C6CF.wem</Path>
 				</File>
 				<File Id="64159668" Language="SFX">
 					<ShortName>CRIS\Cris-14.wav</ShortName>
-					<Path>SFX\CRIS\Cris-14_3ADACB5C.wem</Path>
+					<Path>SFX\CRIS\Cris-14_77F1C6CF.wem</Path>
 				</File>
 				<File Id="82365473" Language="SFX">
 					<ShortName>Footsteps\Dino_SingleFtsp_06.wav</ShortName>
-					<Path>SFX\Footsteps\Dino_SingleFtsp_06_9E69E797.wem</Path>
+					<Path>SFX\Footsteps\Dino_SingleFtsp_06_77F1C6CF.wem</Path>
 				</File>
 				<File Id="123176561" Language="SFX">
 					<ShortName>Footsteps\Dino_SingleFtsp_02.wav</ShortName>
-					<Path>SFX\Footsteps\Dino_SingleFtsp_02_9E69E797.wem</Path>
+					<Path>SFX\Footsteps\Dino_SingleFtsp_02_77F1C6CF.wem</Path>
 				</File>
 				<File Id="127063503" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Dino_Cris_10.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_10_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_10_77F1C6CF.wem</Path>
 				</File>
 				<File Id="141653995" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Various_07.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Various_07_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Various_07_77F1C6CF.wem</Path>
 				</File>
 				<File Id="153973218" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Dino_Cris_05.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_05_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_05_77F1C6CF.wem</Path>
 				</File>
 				<File Id="160762649" Language="SFX">
 					<ShortName>CRIS\Cris-16.wav</ShortName>
-					<Path>SFX\CRIS\Cris-16_3ADACB5C.wem</Path>
+					<Path>SFX\CRIS\Cris-16_77F1C6CF.wem</Path>
 				</File>
 				<File Id="173352256" Language="SFX">
 					<ShortName>CRIS\Cris-12.wav</ShortName>
-					<Path>SFX\CRIS\Cris-12_3ADACB5C.wem</Path>
+					<Path>SFX\CRIS\Cris-12_77F1C6CF.wem</Path>
 				</File>
 				<File Id="207388785" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Dino_Loop_01.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Dino_Loop_01_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Dino_Loop_01_77F1C6CF.wem</Path>
 				</File>
 				<File Id="253383093" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Dino_Cris_09.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_09_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_09_77F1C6CF.wem</Path>
 				</File>
 				<File Id="258249925" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Dino_Cris_08.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_08_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_08_77F1C6CF.wem</Path>
 				</File>
 				<File Id="289633768" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Divers_02.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Divers_02_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Divers_02_77F1C6CF.wem</Path>
 				</File>
 				<File Id="292250076" Language="SFX">
 					<ShortName>Footsteps\Dino_SingleFtsp_07.wav</ShortName>
-					<Path>SFX\Footsteps\Dino_SingleFtsp_07_9E69E797.wem</Path>
+					<Path>SFX\Footsteps\Dino_SingleFtsp_07_77F1C6CF.wem</Path>
 				</File>
 				<File Id="299795253" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Dino_Loop_02.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Dino_Loop_02_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Dino_Loop_02_77F1C6CF.wem</Path>
 				</File>
 				<File Id="301078151" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Trucs_01.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Trucs_01_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Trucs_01_77F1C6CF.wem</Path>
 				</File>
 				<File Id="326881663" Language="SFX">
 					<ShortName>CRIS\Cris-18.wav</ShortName>
-					<Path>SFX\CRIS\Cris-18_3ADACB5C.wem</Path>
+					<Path>SFX\CRIS\Cris-18_77F1C6CF.wem</Path>
 				</File>
 				<File Id="352217460" Language="SFX">
 					<ShortName>CRIS\Cris-13.wav</ShortName>
-					<Path>SFX\CRIS\Cris-13_3ADACB5C.wem</Path>
+					<Path>SFX\CRIS\Cris-13_77F1C6CF.wem</Path>
 				</File>
 				<File Id="385111353" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Dino_Cris_04.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_04_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_04_77F1C6CF.wem</Path>
 				</File>
 				<File Id="418387229" Language="SFX">
 					<ShortName>Footsteps\Dino_SingleFtsp_03.wav</ShortName>
-					<Path>SFX\Footsteps\Dino_SingleFtsp_03_9E69E797.wem</Path>
+					<Path>SFX\Footsteps\Dino_SingleFtsp_03_77F1C6CF.wem</Path>
 				</File>
 				<File Id="420036444" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Dino_Cris_11.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_11_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_11_77F1C6CF.wem</Path>
 				</File>
 				<File Id="422221811" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Dino_Cris_12.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_12_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_12_77F1C6CF.wem</Path>
 				</File>
 				<File Id="499572273" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Divers_03.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Divers_03_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Divers_03_77F1C6CF.wem</Path>
 				</File>
 				<File Id="533154656" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Divers_01.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Divers_01_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Divers_01_77F1C6CF.wem</Path>
 				</File>
 				<File Id="573882583" Language="SFX">
 					<ShortName>CRIS\Cris-11.wav</ShortName>
-					<Path>SFX\CRIS\Cris-11_3ADACB5C.wem</Path>
+					<Path>SFX\CRIS\Cris-11_77F1C6CF.wem</Path>
 				</File>
 				<File Id="610910633" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Trucs_02.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Trucs_02_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Trucs_02_77F1C6CF.wem</Path>
 				</File>
 				<File Id="617534192" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Divers_09.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Divers_09_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Divers_09_77F1C6CF.wem</Path>
 				</File>
 				<File Id="634648255" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Trucs_06.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Trucs_06_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Trucs_06_77F1C6CF.wem</Path>
 				</File>
 				<File Id="670702177" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Divers_06.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Divers_06_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Divers_06_77F1C6CF.wem</Path>
 				</File>
 				<File Id="683671099" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Divers_04.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Divers_04_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Divers_04_77F1C6CF.wem</Path>
 				</File>
 				<File Id="685019912" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Various_06.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Various_06_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Various_06_77F1C6CF.wem</Path>
 				</File>
 				<File Id="696164050" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Various_05.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Various_05_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Various_05_77F1C6CF.wem</Path>
 				</File>
 				<File Id="715494547" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Dino_Cris_03.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_03_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_03_77F1C6CF.wem</Path>
 				</File>
 				<File Id="724619214" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Various_04.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Various_04_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Various_04_77F1C6CF.wem</Path>
 				</File>
 				<File Id="770348932" Language="SFX">
 					<ShortName>CRIS\Cris-17.wav</ShortName>
-					<Path>SFX\CRIS\Cris-17_3ADACB5C.wem</Path>
+					<Path>SFX\CRIS\Cris-17_77F1C6CF.wem</Path>
 				</File>
 				<File Id="804587457" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Trucs_03.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Trucs_03_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Trucs_03_77F1C6CF.wem</Path>
 				</File>
 				<File Id="808389963" Language="SFX">
 					<ShortName>Footsteps\Dino_SingleFtsp_05.wav</ShortName>
-					<Path>SFX\Footsteps\Dino_SingleFtsp_05_9E69E797.wem</Path>
+					<Path>SFX\Footsteps\Dino_SingleFtsp_05_77F1C6CF.wem</Path>
 				</File>
 				<File Id="851313268" Language="SFX">
 					<ShortName>Ambiance_Finish.wav</ShortName>
-					<Path>SFX\Ambiance_Finish_9E69E797.wem</Path>
+					<Path>SFX\Ambiance_Finish_77F1C6CF.wem</Path>
 				</File>
 				<File Id="868162391" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Divers_07.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Divers_07_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Divers_07_77F1C6CF.wem</Path>
 				</File>
 				<File Id="893174470" Language="SFX">
 					<ShortName>Footsteps\Dino_SingleFtsp_04.wav</ShortName>
-					<Path>SFX\Footsteps\Dino_SingleFtsp_04_9E69E797.wem</Path>
+					<Path>SFX\Footsteps\Dino_SingleFtsp_04_77F1C6CF.wem</Path>
 				</File>
 				<File Id="898156801" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Divers_05.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Divers_05_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Divers_05_77F1C6CF.wem</Path>
 				</File>
 				<File Id="909382560" Language="SFX">
 					<ShortName>Ambiance_Start.wav</ShortName>
-					<Path>SFX\Ambiance_Start_9E69E797.wem</Path>
+					<Path>SFX\Ambiance_Start_77F1C6CF.wem</Path>
 				</File>
 				<File Id="913329079" Language="SFX">
 					<ShortName>CRIS\Cris-19.wav</ShortName>
-					<Path>SFX\CRIS\Cris-19_3ADACB5C.wem</Path>
+					<Path>SFX\CRIS\Cris-19_77F1C6CF.wem</Path>
 				</File>
 				<File Id="917889807" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Dino_Cris_02.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_02_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_02_77F1C6CF.wem</Path>
 				</File>
 				<File Id="946708904" Language="SFX">
 					<ShortName>Footsteps\Dino_SingleFtsp_01.wav</ShortName>
-					<Path>SFX\Footsteps\Dino_SingleFtsp_01_9E69E797.wem</Path>
+					<Path>SFX\Footsteps\Dino_SingleFtsp_01_77F1C6CF.wem</Path>
 				</File>
 				<File Id="965305980" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Trucs_05.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Trucs_05_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Trucs_05_77F1C6CF.wem</Path>
 				</File>
 				<File Id="997456366" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Various_03.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Various_03_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Various_03_77F1C6CF.wem</Path>
 				</File>
 				<File Id="1002126405" Language="SFX">
 					<ShortName>CRIS\Cris-09.wav</ShortName>
-					<Path>SFX\CRIS\Cris-09_3ADACB5C.wem</Path>
+					<Path>SFX\CRIS\Cris-09_77F1C6CF.wem</Path>
 				</File>
 				<File Id="1030938877" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Dino_Cris_06.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_06_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_06_77F1C6CF.wem</Path>
 				</File>
 				<File Id="1045430033" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Dino_Cris_07.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_07_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Dino_Cris_07_77F1C6CF.wem</Path>
 				</File>
 				<File Id="1053869606" Language="SFX">
 					<ShortName>Amb_Simple_OK.wav</ShortName>
-					<Path>SFX\Amb_Simple_OK_4D7BABE6.wem</Path>
+					<Path>SFX\Amb_Simple_OK_5981A7BD.wem</Path>
 				</File>
 				<File Id="1067425792" Language="SFX">
 					<ShortName>Ambiance trucs\Ambiance_Various_02.wav</ShortName>
-					<Path>SFX\Ambiance trucs\Ambiance_Various_02_3ADACB5C.wem</Path>
+					<Path>SFX\Ambiance trucs\Ambiance_Various_02_77F1C6CF.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

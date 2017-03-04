@@ -16,37 +16,33 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	822292696	Skid			\Default Work Unit\Car_Various\Skid	
 	1200033591	OnGround			\Default Work Unit\Car_Engine\OnGround	
 
-Effect plug-ins	ID	Name	Type				Notes
-	2080872166	Brick_Wall_Minus_6dB_Peak_Fast_Release	Wwise Peak Limiter			
-
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	49751626	CrankcaseAudio REV	CrankcaseAudio REV		\Actor-Mixer Hierarchy\Default Work Unit\Car\Engine\Ferrari 430\CrankcaseAudio REV	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	32068388	Car_Skid_04	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\TireSkid_04_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Skid\Skid\Car_Skid_04		67397
-	102361454	Impact_Pneumatic_04	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact_Pneumatic_04_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Pneumatic\Impact_Pneumatic_04		48889
-	146464488	Impact_Big_03	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact\Impact_Big_03_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Big\Impact_Big_03		83471
-	164804083	Boost_LOOP	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Boost LOOP_ok_3BDAD486.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Boost\Boost_LOOP		849887
-	303478541	Car_Skid_05	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\TireSkid_05_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Skid\Skid\Car_Skid_05		55237
-	333540538	Impact_Small_03	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact\Impact_Small_03_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Small\Impact_Small_03		78716
-	354615153	Impact_Big_02	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact\Impact_Big_02_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Big\Impact_Big_02		74565
-	358359546	Explosion_02	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\SFX_Explosion\Explosion_02_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Explosion\Explosion\Explosion_02		270697
-	475528038	Car_Skid_01	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\TireSkid_01_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Skid\Skid\Car_Skid_01		28218
-	509314267	Explosion_04	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\SFX_Explosion\Explosion_04_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Explosion\Explosion\Explosion_04		329535
-	517366726	Impact_Pneumatic_05	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact_Pneumatic_05_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Pneumatic\Impact_Pneumatic_05		55061
-	524977779	Car_Skid_02	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\TireSkid_02_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Skid\Skid\Car_Skid_02		62341
-	536937558	Impact_Big_01	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact\Impact_Big_01_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Big\Impact_Big_01		77226
-	540160979	Impact_Pneumatic_02	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact_Pneumatic_02_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Pneumatic\Impact_Pneumatic_02		47050
-	555406778	Explosion_Simple	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\SFX_Explosion\Explosion_Simple_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Explosion\Explosion\Explosion_Simple		200912
-	646456027	Explosion_01	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\SFX_Explosion\Explosion_01_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Explosion\Explosion\Explosion_01		222471
-	658790606	Explosion_03	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\SFX_Explosion\Explosion_03_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Explosion\Explosion\Explosion_03		363049
-	704711695	Car_Skid_03	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\TireSkid_03_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Skid\Skid\Car_Skid_03		24006
-	755627189	Impact_Small_01	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact\Impact_Small_01_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Small\Impact_Small_01		53668
-	793991666	Impact_Pneumatic_01	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact_Pneumatic_01_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Pneumatic\Impact_Pneumatic_01		46374
-	881912051	Explosion_05	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\SFX_Explosion\Explosion_05_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Explosion\Explosion\Explosion_05		359622
-	907194361	Impact_Pneumatic_03	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact_Pneumatic_03_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Pneumatic\Impact_Pneumatic_03		59067
-	943764081	Boost_Start	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Boost_Start_02_59832A9F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Boost\Boost_Start		105091
-	947323065	Impact_Small_02	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact\Impact_Small_02_3AE5877C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Small\Impact_Small_02		55956
+	32068388	Car_Skid_04	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\TireSkid_04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Skid\Skid\Car_Skid_04		217838
+	102361454	Impact_Pneumatic_04	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact_Pneumatic_04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Pneumatic\Impact_Pneumatic_04		184384
+	146464488	Impact_Big_03	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact\Impact_Big_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Big\Impact_Big_03		307264
+	164804083	Boost_LOOP	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Boost LOOP_ok_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Boost\Boost_LOOP		3433024
+	303478541	Car_Skid_05	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\TireSkid_05_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Skid\Skid\Car_Skid_05		170554
+	333540538	Impact_Small_03	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact\Impact_Small_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Small\Impact_Small_03		307264
+	354615153	Impact_Big_02	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact\Impact_Big_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Big\Impact_Big_02		268864
+	358359546	Explosion_02	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\SFX_Explosion\Explosion_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Explosion\Explosion\Explosion_02		1105984
+	475528038	Car_Skid_01	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\TireSkid_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Skid\Skid\Car_Skid_01		88264
+	509314267	Explosion_04	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\SFX_Explosion\Explosion_04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Explosion\Explosion\Explosion_04		1236544
+	517366726	Impact_Pneumatic_05	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact_Pneumatic_05_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Pneumatic\Impact_Pneumatic_05		199744
+	524977779	Car_Skid_02	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\TireSkid_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Skid\Skid\Car_Skid_02		182100
+	536937558	Impact_Big_01	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact\Impact_Big_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Big\Impact_Big_01		284224
+	540160979	Impact_Pneumatic_02	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact_Pneumatic_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Pneumatic\Impact_Pneumatic_02		161344
+	555406778	Explosion_Simple	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\SFX_Explosion\Explosion_Simple_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Explosion\Explosion\Explosion_Simple		852544
+	658790606	Explosion_03	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\SFX_Explosion\Explosion_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Explosion\Explosion\Explosion_03		1451584
+	704711695	Car_Skid_03	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\TireSkid_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Skid\Skid\Car_Skid_03		75788
+	755627189	Impact_Small_01	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact\Impact_Small_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Small\Impact_Small_01		215104
+	793991666	Impact_Pneumatic_01	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact_Pneumatic_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Pneumatic\Impact_Pneumatic_01		169024
+	881912051	Explosion_05	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\SFX_Explosion\Explosion_05_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Explosion\Explosion\Explosion_05		1321024
+	907194361	Impact_Pneumatic_03	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact_Pneumatic_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Pneumatic\Impact_Pneumatic_03		199744
+	943764081	Boost_Start	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Boost_Start_02_D38E5F28.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Boost\Boost_Start		429324
+	947323065	Impact_Small_02	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Impact\Impact_Small_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car\Impact\Impact_Small\Impact_Small_02		199744
 
 Plug-in Media	ID	Name	Source file	Type	Wwise Object Path	Notes	Data Size
 	673251954	CrankcaseAudio REV	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\Plugins\CrankcaseAudio REV\Ferrari_430_6937BA7F.wem	CrankcaseAudio REV (Custom)	\Actor-Mixer Hierarchy\Default Work Unit\Car\Engine\Ferrari 430\CrankcaseAudio REV		455424
