@@ -61,7 +61,7 @@ public class Restart : MonoBehaviour {
 
     public void RestartMenu()
     {
-        //AkSoundEngine.PostEvent("Ambiance_Stop", gameObject);
+        AkSoundEngine.PostEvent("UI_Button_Quit_Game_Play", gameObject);
         //UnloadBanks();
         SceneManager.LoadScene(0);
         MapManager.instance.ResetVar();

@@ -1,4 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
+	234378122	Music_DinoScene_Stop			\Default Work Unit\Music\Music_DinoScene_Stop	
+	1434308489	Music_PracticeScene_Stop			\Default Work Unit\Music\Music_PracticeScene_Stop	
 	2013246097	Music_Menu_Play			\Default Work Unit\Music\Music_Menu_Play	
 	2156898104	Music_DinoScene_Play			\Default Work Unit\Music\Music_DinoScene_Play	
 	3264661319	Music_Menu_Stop			\Default Work Unit\Music\Music_Menu_Stop	

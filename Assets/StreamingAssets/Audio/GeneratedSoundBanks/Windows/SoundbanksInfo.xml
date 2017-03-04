@@ -172,6 +172,7 @@
 				<Event Id="2935474450" Name="UI_Button_Bkwd_Play" ObjectPath="\Events\Default Work Unit\UI\UI_Button_Bkwd_Play"/>
 				<Event Id="3716974573" Name="UI_Button_Fwd_Play" ObjectPath="\Events\Default Work Unit\UI\UI_Button_Fwd_Play"/>
 				<Event Id="2379069253" Name="UI_Button_PassOver_Play" ObjectPath="\Events\Default Work Unit\UI\UI_Button_PassOver_Play"/>
+				<Event Id="2837784410" Name="UI_Button_Quit_Game_Play" ObjectPath="\Events\Default Work Unit\UI\UI_Button_Quit_Game_Play"/>
 				<Event Id="3543023082" Name="UI_Button_Select_Play" ObjectPath="\Events\Default Work Unit\UI\UI_Button_Select_Play"/>
 				<Event Id="1230956281" Name="UI_Button_Stop" ObjectPath="\Events\Default Work Unit\UI\UI_Button_Stop"/>
 				<Event Id="1795653221" Name="UI_TV_ChangeChannel_Play" ObjectPath="\Events\Default Work Unit\UI\UI_TV_ChangeChannel_Play"/>
@@ -274,6 +275,7 @@
 				<Event Id="4277185621" Name="Ambiance_Start_CountDown_Play" ObjectPath="\Events\Default Work Unit\Ambiance\Ambiance_Start_CountDown_Play"/>
 				<Event Id="3045561464" Name="Ambiance_Stop" ObjectPath="\Events\Default Work Unit\Ambiance\Ambiance_Stop"/>
 				<Event Id="3759478915" Name="Ambiance_Wind_Play" ObjectPath="\Events\Default Work Unit\Ambiance\Ambiance_Wind_Play"/>
+				<Event Id="2273744202" Name="Car_Motor_ResetRPM" ObjectPath="\Events\Default Work Unit\Car\Car_Motor_ResetRPM"/>
 				<Event Id="1198733287" Name="Footsteps_Play" ObjectPath="\Events\Default Work Unit\Ambiance\Footsteps_Play"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -509,9 +511,11 @@
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2156898104" Name="Music_DinoScene_Play" ObjectPath="\Events\Default Work Unit\Music\Music_DinoScene_Play"/>
+				<Event Id="234378122" Name="Music_DinoScene_Stop" ObjectPath="\Events\Default Work Unit\Music\Music_DinoScene_Stop"/>
 				<Event Id="2013246097" Name="Music_Menu_Play" ObjectPath="\Events\Default Work Unit\Music\Music_Menu_Play"/>
 				<Event Id="3264661319" Name="Music_Menu_Stop" ObjectPath="\Events\Default Work Unit\Music\Music_Menu_Stop"/>
 				<Event Id="3414308035" Name="Music_PracticeScene_Play" ObjectPath="\Events\Default Work Unit\Music\Music_PracticeScene_Play"/>
+				<Event Id="1434308489" Name="Music_PracticeScene_Stop" ObjectPath="\Events\Default Work Unit\Music\Music_PracticeScene_Stop"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="292531245"/>

@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1198733287	Footsteps_Play			\Default Work Unit\Ambiance\Footsteps_Play	
 	1296828403	Ambiance_Checkpoint_Play			\Default Work Unit\Ambiance\Ambiance_Checkpoint_Play	
+	2273744202	Car_Motor_ResetRPM			\Default Work Unit\Car\Car_Motor_ResetRPM	
 	2554673542	Ambiance_DS_Main_Play			\Default Work Unit\Ambiance\Ambiance_DS_Main_Play	
 	2959156706	Ambiance_PS_Main_Play			\Default Work Unit\Ambiance\Ambiance_PS_Main_Play	
 	3045561464	Ambiance_Stop			\Default Work Unit\Ambiance\Ambiance_Stop	

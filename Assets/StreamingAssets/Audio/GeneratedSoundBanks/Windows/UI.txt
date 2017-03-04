@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1230956281	UI_Button_Stop			\Default Work Unit\UI\UI_Button_Stop	
 	1795653221	UI_TV_ChangeChannel_Play			\Default Work Unit\UI\UI_TV_ChangeChannel_Play	
 	2379069253	UI_Button_PassOver_Play			\Default Work Unit\UI\UI_Button_PassOver_Play	
+	2837784410	UI_Button_Quit_Game_Play			\Default Work Unit\UI\UI_Button_Quit_Game_Play	
 	2935474450	UI_Button_Bkwd_Play			\Default Work Unit\UI\UI_Button_Bkwd_Play	
 	3092587493	Pause			\Default Work Unit\Pause	
 	3543023082	UI_Button_Select_Play			\Default Work Unit\UI\UI_Button_Select_Play	
