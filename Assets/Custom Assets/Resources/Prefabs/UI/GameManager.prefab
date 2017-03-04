@@ -35,10 +35,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4568676942411172}
-  - component: {fileID: 114552402511720530}
-  - component: {fileID: 114776691577950052}
-  - component: {fileID: 114501752837833706}
-  - component: {fileID: 114518455555116850}
+  - component: {fileID: 114194924881433078}
   m_Layer: 0
   m_Name: WwiseInit
   m_TagString: Untagged
@@ -103,6 +100,22 @@ Transform:
   m_Father: {fileID: 4301489313041638}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114194924881433078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1491901485229806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17b8ada3b49a634487eed479e9cd03b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modifyBussesVolume: 0
+  volumeGlobal: 100
+  volumeMusic: 100
+  volumeVoice: 100
+  volumeSFX: 100
 --- !u!114 &114302009174665612
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -117,82 +130,6 @@ MonoBehaviour:
   ghostPrefab: {fileID: 114987792955055550, guid: c2bc856215175e74b9f63ef432eaed6e,
     type: 2}
   penality: 5
---- !u!114 &114501752837833706
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1491901485229806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f940b6dcb36621642884c79b2e59ba76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  valueGuid: 17fb93eee3eb144a9c34bdc1ba0bfb9b
-  bankName: Music
-  loadAsynchronous: 0
-  decodeBank: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
---- !u!114 &114518455555116850
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1491901485229806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f940b6dcb36621642884c79b2e59ba76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  valueGuid: b50abc9acf91934a8d6d3420e7896ef5
-  bankName: UI
-  loadAsynchronous: 0
-  decodeBank: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
---- !u!114 &114552402511720530
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1491901485229806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f940b6dcb36621642884c79b2e59ba76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  valueGuid: cae10ced3d57ad4ebf349f5800474e56
-  bankName: Ambiance
-  loadAsynchronous: 0
-  decodeBank: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 
---- !u!114 &114776691577950052
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1491901485229806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f940b6dcb36621642884c79b2e59ba76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  valueGuid: 0ffee3c1d0b6e74fa3b19a665a64f48e
-  bankName: Car_Motor
-  loadAsynchronous: 0
-  decodeBank: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
 --- !u!114 &114930057796510632
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{8F2297CB-3E8A-4D0B-B84F-CF5B73B1BEC4}'
-    m_lastTimePsrt1: -1167989119
-    m_lastTimePart2: -1999346959
+    m_lastTimePsrt1: -1881613660
+    m_lastTimePart2: -1999346938
     List:
     - Name: Ambiance_Checkpoint_Play
       Path: Default Work Unit\Ambiance\Ambiance_Checkpoint_Play
@@ -425,8 +425,8 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{8AF1870F-F097-4779-BE1C-A5E68D0C94B1}'
-    m_lastTimePsrt1: -1629450895
-    m_lastTimePart2: -1999348539
+    m_lastTimePsrt1: 821969949
+    m_lastTimePart2: -1999346957
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -514,8 +514,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{39C57A1E-4548-40AD-9C4D-823982D1C3AC}'
-    m_lastTimePsrt1: -286704442
-    m_lastTimePart2: -1999346961
+    m_lastTimePsrt1: 1031064349
+    m_lastTimePart2: -1999346934
     List:
     - Name: Ambiance
       Path: Default Work Unit\Ambiance
