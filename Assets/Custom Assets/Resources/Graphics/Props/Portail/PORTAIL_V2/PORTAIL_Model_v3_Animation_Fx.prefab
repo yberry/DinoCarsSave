@@ -72,7 +72,7 @@ GameObject:
   - component: {fileID: 33151246690274638}
   - component: {fileID: 23608841418236488}
   m_Layer: 0
-  m_Name: Portail_Model_v3_Animation_Fx
+  m_Name: PORTAIL_Model_v3_Animation_Fx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
