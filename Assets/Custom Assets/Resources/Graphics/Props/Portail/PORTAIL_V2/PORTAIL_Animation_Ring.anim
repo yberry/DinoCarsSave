@@ -556,7 +556,16 @@ AnimationClip:
     path: Spotlight
     classID: 108
     script: {fileID: 0}
-  m_PPtrCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 2100000, guid: 199c3354aafe3764f8da23cd46ed9586, type: 2}
+    - time: 0.76666665
+      value: {fileID: 2100000, guid: 8a16be2ed5030144e805e5d784d99ff6, type: 2}
+    attribute: m_Materials.Array.data[0]
+    path: 
+    classID: 23
+    script: {fileID: 0}
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -654,6 +663,12 @@ AnimationClip:
       classID: 23
       customType: 22
       isPPtrCurve: 0
+    - path: 0
+      attribute: 0
+      script: {fileID: 0}
+      classID: 23
+      customType: 21
+      isPPtrCurve: 1
     - path: 1650756638
       attribute: 4
       script: {fileID: 0}
@@ -726,7 +741,9 @@ AnimationClip:
       classID: 108
       customType: 25
       isPPtrCurve: 0
-    pptrCurveMapping: []
+    pptrCurveMapping:
+    - {fileID: 2100000, guid: 199c3354aafe3764f8da23cd46ed9586, type: 2}
+    - {fileID: 2100000, guid: 8a16be2ed5030144e805e5d784d99ff6, type: 2}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
