@@ -18,8 +18,6 @@ public class MapManager : MonoBehaviour {
     const int maxStatesStored = 360000;
     const float snapshotFrequency = 1f / 60f;
 
-    
-
     void Start()
     {
         if (instance == null)

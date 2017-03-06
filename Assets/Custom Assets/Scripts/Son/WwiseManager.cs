@@ -23,10 +23,14 @@ public class WwiseManager : MonoBehaviour {
     void Start()
     {
         Instance = this;
-        loadWwiseBanks("Music");
-        loadWwiseBanks("Ambiance");
-        loadWwiseBanks("Car_Motor");
-        
+
+        uint bankID;
+        AkSoundEngine.LoadBank("Ambiance", AkSoundEngine.AK_DEFAULT_POOL_ID, out bankID);
+        AkSoundEngine.LoadBank("Car_Motor", AkSoundEngine.AK_DEFAULT_POOL_ID, out bankID);
+        AkSoundEngine.LoadBank("Music", AkSoundEngine.AK_DEFAULT_POOL_ID, out bankID);
+        AkSoundEngine.LoadBank("UI", AkSoundEngine.AK_DEFAULT_POOL_ID, out bankID);
+
+
 
         // set the volume of Busses
         if (modifyBussesVolume)

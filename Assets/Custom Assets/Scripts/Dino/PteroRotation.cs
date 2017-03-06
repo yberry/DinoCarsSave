@@ -4,6 +4,7 @@ using UnityEngine;
 
 public enum Courbe
 {
+    Circle,
     Bernouilli,
     Hypotrochoide,
     Epitrochoide
@@ -31,6 +32,10 @@ public class PteroRotation : MonoBehaviour {
 
         switch (courbe)
         {
+            case Courbe.Circle:
+                Circle();
+                break;
+
             case Courbe.Bernouilli:
                 Bernouilli();
                 break;
@@ -43,6 +48,23 @@ public class PteroRotation : MonoBehaviour {
                 Choide(false);
                 break;
         }
+    }
+
+    void Circle()
+    {
+        //Calcul position
+        float cos = distance * Mathf.Cos(angle);
+        float sin = distance * Mathf.Sin(angle);
+
+        ptero.localPosition = new Vector3(cos, 0f, sin);
+
+        //Calcul vitesse
+        Vector3 forward = new Vector3(-sin, 0f, cos);
+
+        //Calcul acceleration
+        Vector3 upwards = new Vector3(-cos, distance * penchement, -sin);
+
+        ptero.localRotation = Quaternion.LookRotation(forward, upwards);
     }
 
     void Bernouilli()

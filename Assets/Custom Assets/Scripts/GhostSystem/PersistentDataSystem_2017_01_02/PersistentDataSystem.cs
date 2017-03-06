@@ -135,7 +135,7 @@ namespace EquilibreGames
         /// </summary>
         public void Init()
         {
-            automaticSavedDataDirectoryPath = Application.persistentDataPath + "/" + PersistentDataSystemDirectory + "/" + AutomaticDirectoryName + "/";
+            automaticSavedDataDirectoryPath = "./Ghosts" + "/" + PersistentDataSystemDirectory + "/" + AutomaticDirectoryName + "/";
             singleFileDirectoryPath = automaticSavedDataDirectoryPath + SingleFileName + "/";
             multipleFilesDirectoryPath = automaticSavedDataDirectoryPath + MultipleFilesDirectoryName + "/";
 

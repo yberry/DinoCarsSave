@@ -19,9 +19,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4073166888942702}
-  - component: {fileID: 114066874501274628}
-  - component: {fileID: 114414813019195894}
   - component: {fileID: 114029019740990138}
+  - component: {fileID: 114414813019195894}
   m_Layer: 0
   m_Name: Audio_Music_PS
   m_TagString: Untagged
@@ -66,25 +65,6 @@ MonoBehaviour:
   playingId: 0
   multiPositionTypeLabel: 0
   multiPositionArray: []
---- !u!114 &114066874501274628
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1114742127965842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f940b6dcb36621642884c79b2e59ba76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  valueGuid: 17fb93eee3eb144a9c34bdc1ba0bfb9b
-  bankName: Music
-  loadAsynchronous: 0
-  decodeBank: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
 --- !u!114 &114414813019195894
 MonoBehaviour:
   m_ObjectHideFlags: 1

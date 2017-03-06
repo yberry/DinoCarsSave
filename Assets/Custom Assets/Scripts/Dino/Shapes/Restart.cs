@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 public class Restart : MonoBehaviour {
 
     public KeyCode restartKeycode = KeyCode.Backspace;
-    public KeyCode menuKeycode = KeyCode.Escape;
-    public AkBank bank;
 
     public Rewired.Player pInput;
 
@@ -42,11 +40,6 @@ public class Restart : MonoBehaviour {
         {
             RestartScene();
         }
-
-        if (Input.GetKeyDown(menuKeycode))
-        {
-            RestartMenu();
-        }
 	}
 
     void RestartCheckPoint()
@@ -61,14 +54,9 @@ public class Restart : MonoBehaviour {
 
     public void RestartMenu()
     {
-        UnloadBanks();
+        AkSoundEngine.PostEvent("UI_Button_Quit_Game_Play", gameObject);
         SceneManager.LoadScene(0);
         MapManager.instance.ResetVar();
         GameManager.instance.ResetVar(true);
-    }
-
-    public void UnloadBanks()
-    {
-        bank.UnloadBank(bank.gameObject);
     }
 }

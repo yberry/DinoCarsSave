@@ -7,7 +7,10 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
+    [Header("Title Screen")]
+    public Image rendererMovie;
     public Button pressStart;
+    public bool playMovie;
 
     [Header("Camera effects")]
     public Texture[] noiseTex;
@@ -26,11 +29,14 @@ public class MainMenu : MonoBehaviour {
     public LevelSelection levelSelection;
     public GhostSelection ghostSelection;
 
+    Rect titleCam = new Rect(0f, 0f, 1f, 1f);
+    Rect otherCam = new Rect(0f, 0f, 0.74f, 1f);
+
     RectTransform currentMenu;
     Animator animator;
     float timeColor = 0f;
     AsyncOperation async;
-    bool startPressed;
+    bool startPressed = true;
 
     public Rewired.Player pInput;
 
@@ -38,10 +44,42 @@ public class MainMenu : MonoBehaviour {
     {
         AkSoundEngine.PostEvent("Music_Menu_Play", gameObject);
         currentMenu = titleScreen;
-        SetSelection();
+        
         animator = cameraVHS.GetComponent<Animator>();
 
         pInput = Rewired.ReInput.players.GetPlayer(0);
+
+        rendererMovie.gameObject.SetActive(playMovie);
+
+        if (playMovie)
+        {
+            StartCoroutine(PlayMovie());
+        }
+        else
+        {
+            startPressed = false;
+            SetSelection();
+        }
+    }
+
+    IEnumerator PlayMovie()
+    {
+        pressStart.gameObject.SetActive(false);
+
+        MovieTexture movie = (MovieTexture)rendererMovie.material.GetTexture("_MainTex");
+
+        movie.loop = false;
+        movie.Play();
+
+        while (movie.isPlaying)
+        {
+            yield return null;
+        }
+
+        pressStart.gameObject.SetActive(true);
+
+        startPressed = false;
+        SetSelection();
     }
 
     public void ChangeTo(RectTransform newMenu)
@@ -81,16 +119,16 @@ public class MainMenu : MonoBehaviour {
 
         if (newMenu == null)
         {
-            cameraVHS.spriteTex = GameManager.instance.practise ? spritePractise : levelSelection.map.sprite;
-            animator.SetTrigger("Shut");
-            yield return new WaitForSeconds(1f);
+            cameraVHS.spriteTex = spritePractise;
+            //animator.SetTrigger("Shut");
+            yield return new WaitForSeconds(5f);
             AkSoundEngine.PostEvent("Stop_All", gameObject);
             AkSoundEngine.PostEvent("Music_Menu_Stop", gameObject);
             async.allowSceneActivation = true;
         }
         else
         {
-            cameraVHS.enabled = newMenu != titleScreen;
+            cameraVHS.GetComponent<Camera>().rect = newMenu == titleScreen ? titleCam : otherCam;
 
             ManageButtons manageNew = newMenu.GetComponent<ManageButtons>();
             if (manageNew != null)
@@ -122,6 +160,8 @@ public class MainMenu : MonoBehaviour {
         Button[] selectables = currentMenu.GetComponentsInChildren<Button>();
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(selectables[0].gameObject);
+
+        Cursor.visible = true;
     }
 
     void Update()
