@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 33089404962559954}
   - component: {fileID: 23826859364514100}
   - component: {fileID: 95947658739142048}
+  - component: {fileID: 64778494131535458}
   m_Layer: 0
   m_Name: Portail_Model_v4_Animation_Fx
   m_TagString: Untagged
@@ -142,6 +143,20 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1654603581648524}
+  m_Mesh: {fileID: 4300000, guid: 28b052019b182264ca3cfd7d9553c0ef, type: 3}
+--- !u!64 &64778494131535458
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654603581648524}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 28b052019b182264ca3cfd7d9553c0ef, type: 3}
 --- !u!65 &65323932558252782
 BoxCollider:
