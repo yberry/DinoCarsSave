@@ -57,15 +57,17 @@ namespace CND.Car
 			car.transform.rotation = rotation;
             ((ArcadeCarController)car).ActionTimers(0f);
             car.Action(0f, 0f, 0f, 0f);
+            car.Move(0f, 0f);
         }
 
 		public void Kill(bool explode=false)
 		{
             ((ArcadeCarController)car).ActionTimers(0f);
             car.Action(0f, 0f, 0f, 0f);
+            car.Move(0f, 0f);
+            car.rBody.velocity = Vector3.zero;
+            car.rBody.angularVelocity = Vector3.zero;
             car.gameObject.SetActive(false);
-			car.rBody.velocity = Vector3.zero;
-			car.rBody.angularVelocity = Vector3.zero;
             
             //LastTimeSpawned = Time.time;
         }

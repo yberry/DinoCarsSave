@@ -233,7 +233,7 @@ public class CarDinoHUD : MonoBehaviour {
 
     void UpdatePause()
     {
-        if (GameManager.instance.isRunning && pInput.GetButtonDown(Globals.BtnStart))
+        if (GameManager.instance.isRunning && (Input.GetKeyDown(KeyCode.Escape) || pInput.GetButtonDown(Globals.BtnStart)))
         {
             Pause = !Pause;
         }

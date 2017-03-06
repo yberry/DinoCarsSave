@@ -19,7 +19,6 @@ public class CarReInput : MonoBehaviour {
     public BaseCarController car;
 
 	public Mapping mappingStyle;
-	public bool ignoreGameManager;
 
     // Use this for initialization
     void Start () {
@@ -43,7 +42,7 @@ public class CarReInput : MonoBehaviour {
 	bool stickTestForce;
     private void FixedUpdate()
     {
-        if (!GameManager.instance.isRunning && !ignoreGameManager)
+        if (!GameManager.instance.isRunning)
         {
             return;
         }
