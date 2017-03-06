@@ -1185,7 +1185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e504df5bd7776247b218733dec5708a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheelGraphics: {fileID: 1033736173520056, guid: 5a73ac2e961f8374cbbc7525c6100c37,
+  wheelGraphics: {fileID: 1378973085786798, guid: a7cc2f0d16b2cc24085680cdbb0e9aef,
     type: 2}
   settings:
     baseSpringLength: 0.35
@@ -1243,7 +1243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e504df5bd7776247b218733dec5708a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheelGraphics: {fileID: 1033736173520056, guid: 5a73ac2e961f8374cbbc7525c6100c37,
+  wheelGraphics: {fileID: 1378973085786798, guid: a7cc2f0d16b2cc24085680cdbb0e9aef,
     type: 2}
   settings:
     baseSpringLength: 0.35
@@ -1426,7 +1426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e504df5bd7776247b218733dec5708a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheelGraphics: {fileID: 1033736173520056, guid: 5a73ac2e961f8374cbbc7525c6100c37,
+  wheelGraphics: {fileID: 1080678148596240, guid: b938c40c3e7fef84ab0d7422134d331e,
     type: 2}
   settings:
     baseSpringLength: 0.35
@@ -1494,7 +1494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e504df5bd7776247b218733dec5708a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheelGraphics: {fileID: 1033736173520056, guid: 5a73ac2e961f8374cbbc7525c6100c37,
+  wheelGraphics: {fileID: 1080678148596240, guid: b938c40c3e7fef84ab0d7422134d331e,
     type: 2}
   settings:
     baseSpringLength: 0.35
@@ -1591,8 +1591,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartKeycode: 8
-  menuKeycode: 27
-  bank: {fileID: 0}
 --- !u!114 &114544022852349678
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1756,7 +1754,6 @@ MonoBehaviour:
   playerSlot: 1
   car: {fileID: 114217766517351466}
   mappingStyle: 0
-  ignoreGameManager: 0
 --- !u!114 &114997405302112812
 MonoBehaviour:
   m_ObjectHideFlags: 1
