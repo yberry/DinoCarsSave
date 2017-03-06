@@ -12,7 +12,7 @@ public class CarGravityOverride : MonoBehaviour {
 	Vector3 origGravity;
 	bool origGravityState;
 	BaseCarController car;
-	List<IOverridableGravity> overridableComponents;
+	List<IOverridableGravity> overridableComponents = new List<IOverridableGravity>();
 
 	void Awake()
 	{
@@ -30,7 +30,10 @@ public class CarGravityOverride : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-
+        if (overridableComponents.Count == 0)
+        {
+            overridableComponents = new List<IOverridableGravity>(GetComponentsInChildren<IOverridableGravity>());
+        }
 		currentGravity = GetNextGravity();
 
 		LocalGravityOverride.ApplyGravityForce(car.rBody, currentGravity, applyOnCenterOfMass);
