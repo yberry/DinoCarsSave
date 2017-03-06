@@ -1,4 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
+	234378122	Music_DinoScene_Stop			\Default Work Unit\Music\Music_DinoScene_Stop	
+	1434308489	Music_PracticeScene_Stop			\Default Work Unit\Music\Music_PracticeScene_Stop	
 	2013246097	Music_Menu_Play			\Default Work Unit\Music\Music_Menu_Play	
 	2156898104	Music_DinoScene_Play			\Default Work Unit\Music\Music_DinoScene_Play	
 	3264661319	Music_Menu_Stop			\Default Work Unit\Music\Music_Menu_Stop	
@@ -6,16 +8,25 @@ Event	ID	Name			Wwise Object Path	Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	796049864	RPM			\Default Work Unit\Car_Engine\RPM	
-	3588613048	Play_Without_Loosing			\Default Work Unit\Play_Without_Loosing	
-	4243643777	Car_Boost			\Default Work Unit\Car_Various\Car_Boost	
 
 Effect plug-ins	ID	Name	Type				Notes
 	2080872166	Brick_Wall_Minus_6dB_Peak_Fast_Release	Wwise Peak Limiter			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	77944704	Music_Dino_Beat_Loop	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Music_Dino_Beat_Loop_4D7BABE6.wem		\Interactive Music Hierarchy\Default Work Unit\Circuit\Chorus\Dino\Music_Dino_Beat_Loop		3534226
-	258758959	Music_Practice_Synthe_Loop	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Music_Practice_Synthe_Loop_4D7BABE6.wem		\Interactive Music Hierarchy\Default Work Unit\Circuit\Practice\Practice\Music_Practice_Synthe_Loop		3668252
-	425884850	Music_Practice_Beat_Loop	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Music_Practice_Beat_Loop_4D7BABE6.wem		\Interactive Music Hierarchy\Default Work Unit\Circuit\Practice\Practice\Music_Practice_Beat_Loop		3073923
-	697563373	Music_Menu_Loop	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Music_Menu_Loop_4D7BABE6.wem		\Interactive Music Hierarchy\Default Work Unit\Circuit\Pause\Music_Menu_Loop\Music_Menu_Loop		398373
-	801910844	Music_Dino_Synthe_Loop	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\Music_Dino_Synthe_Loop_4D7BABE6.wem		\Interactive Music Hierarchy\Default Work Unit\Circuit\Chorus\Dino\Music_Dino_Synthe_Loop		4832928
+	292531245	Music_Dino_Synthe_Loop	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\dino synth_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Circuit\Dino\Dino\Music_Dino_Synthe_Loop		17704
+	389584276	menu	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\menu_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Circuit\Menu\Menu\menu		17704
+	507237409	Music_Practice_Beat_Loop	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\practise drums_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Circuit\Practice\Practice\Music_Practice_Beat_Loop		17704
+	573548332	practise intro	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\practise intro_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Circuit\Practice\Practise Intro\practise intro		17704
+	575885856	Music_Practice_Synthe_Loop	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\practise synth_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Circuit\Practice\Practice\Music_Practice_Synthe_Loop		17704
+	654176261	Music_Dino_Beat_Loop	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\dino drums_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Circuit\Dino\Dino\Music_Dino_Beat_Loop		17704
+	784369411	dino intro	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\dino intro_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Circuit\Dino\Dino Intro\dino intro		17704
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	292531245	Music_Dino_Synthe_Loop	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\dino synth_4B8CC0C5.wem	292531245.wem	\Interactive Music Hierarchy\Default Work Unit\Circuit\Dino\Dino\Music_Dino_Synthe_Loop	
+	389584276	menu	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\menu_4B8CC0C5.wem	389584276.wem	\Interactive Music Hierarchy\Default Work Unit\Circuit\Menu\Menu\menu	
+	507237409	Music_Practice_Beat_Loop	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\practise drums_4B8CC0C5.wem	507237409.wem	\Interactive Music Hierarchy\Default Work Unit\Circuit\Practice\Practice\Music_Practice_Beat_Loop	
+	573548332	practise intro	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\practise intro_4B8CC0C5.wem	573548332.wem	\Interactive Music Hierarchy\Default Work Unit\Circuit\Practice\Practise Intro\practise intro	
+	575885856	Music_Practice_Synthe_Loop	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\practise synth_4B8CC0C5.wem	575885856.wem	\Interactive Music Hierarchy\Default Work Unit\Circuit\Practice\Practice\Music_Practice_Synthe_Loop	
+	654176261	Music_Dino_Beat_Loop	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\dino drums_4B8CC0C5.wem	654176261.wem	\Interactive Music Hierarchy\Default Work Unit\Circuit\Dino\Dino\Music_Dino_Beat_Loop	
+	784369411	dino intro	C:\Users\GUILLON.victoria\Documents\WwiseProjects\CarsDino_CAR_Motor\.cache\Windows\SFX\dino intro_4B8CC0C5.wem	784369411.wem	\Interactive Music Hierarchy\Default Work Unit\Circuit\Dino\Dino Intro\dino intro	
 
