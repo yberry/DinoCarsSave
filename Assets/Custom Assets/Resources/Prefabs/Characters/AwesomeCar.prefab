@@ -1185,7 +1185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e504df5bd7776247b218733dec5708a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheelGraphics: {fileID: 1033736173520056, guid: 5a73ac2e961f8374cbbc7525c6100c37,
+  wheelGraphics: {fileID: 1378973085786798, guid: a7cc2f0d16b2cc24085680cdbb0e9aef,
     type: 2}
   settings:
     baseSpringLength: 0.35
@@ -1243,7 +1243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e504df5bd7776247b218733dec5708a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheelGraphics: {fileID: 1033736173520056, guid: 5a73ac2e961f8374cbbc7525c6100c37,
+  wheelGraphics: {fileID: 1378973085786798, guid: a7cc2f0d16b2cc24085680cdbb0e9aef,
     type: 2}
   settings:
     baseSpringLength: 0.35
@@ -1329,40 +1329,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GearCount: 5
   normalSettings:
-    carSettings: {fileID: 11400000, guid: aaac8c050899d8a4f892ea2d3974f4f3, type: 2}
+    carSettings: {fileID: 11400000, guid: e5facf372a0efef42849308678b38c7f, type: 2}
     overrideDefaults: 1
-    SyncDirection: 1
+    SyncDirection: 2
     displayedSettings:
       targetSpeed: 250
       boostRatio: 1.5
       accelCurve: 0.25
-      downForce: 125
+      downForce: 150
       maxTurnAngle: 35
-      turnSpeed: 60
+      turnSpeed: 40
       brakeEffectiveness: 0.75
       tractionControl: 0
-      driftControl: 0.75
-      steeringHelper: 0.875
+      driftControl: 1
+      steeringHelper: 0.7
       ackermannSteering: -0.125
       centerOfMassOffset: {x: 0, y: -0.15, z: 0.15}
       orientationFix: 0
   driftSettings:
-    carSettings: {fileID: 11400000, guid: 02326ad02349a2645ad56599b0bba6a7, type: 2}
+    carSettings: {fileID: 11400000, guid: 9bdbbce3f3ac0fc4eb9f39c82f8537eb, type: 2}
     overrideDefaults: 1
-    SyncDirection: 1
+    SyncDirection: 2
     displayedSettings:
       targetSpeed: 250
       boostRatio: 1.25
       accelCurve: 0.35
-      downForce: 300
-      maxTurnAngle: 42
-      turnSpeed: 70
+      downForce: 150
+      maxTurnAngle: 50
+      turnSpeed: 60
       brakeEffectiveness: 0.5
       tractionControl: 1
       driftControl: 0
       steeringHelper: 0.15
       ackermannSteering: 0.25
-      centerOfMassOffset: {x: 0, y: -0.2, z: 0.1}
+      centerOfMassOffset: {x: 0, y: -0.2, z: 0.05}
       orientationFix: 0
   angularDrag: {x: 0.005, y: 0.05, z: 0.005}
   dynamicDrag: 0.35
@@ -1426,7 +1426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e504df5bd7776247b218733dec5708a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheelGraphics: {fileID: 1033736173520056, guid: 5a73ac2e961f8374cbbc7525c6100c37,
+  wheelGraphics: {fileID: 1080678148596240, guid: b938c40c3e7fef84ab0d7422134d331e,
     type: 2}
   settings:
     baseSpringLength: 0.35
@@ -1494,7 +1494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e504df5bd7776247b218733dec5708a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheelGraphics: {fileID: 1033736173520056, guid: 5a73ac2e961f8374cbbc7525c6100c37,
+  wheelGraphics: {fileID: 1080678148596240, guid: b938c40c3e7fef84ab0d7422134d331e,
     type: 2}
   settings:
     baseSpringLength: 0.35
